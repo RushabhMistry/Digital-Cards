@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no, shrink-to-fit=no">
+		<title> Aks Jain </title>
+		<link rel="stylesheet" href="../../packages/font-awesome-5.7.2/css/all.css">
+		<link rel="stylesheet" href="../../packages/bootstrap-4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/danshin.css">
+	</head>
+	<body>
+		<div class="flip-container middle">
+			<div class="flipper">
+				<div class="front ">
+					<img src="../images/front.png" alt="">
+					<div class="btnRight">
+						<span><i class="fas fa-angle-double-right" id="btn1"></i></span>
+					</div>
+				</div>
+				<div class="back">
+					<img src="../images/back.png" alt="">
+					<div class="backContent middle">
+						<div class="backCont">
+							<span class="head">DANSHIN REALITY GROUP</span>
+							<span class="head">Realtor</span>
+							<span class="spn hov"><i class="fas fa-map-marked-alt"></i> &nbsp; <a href="#">123 Miller Street, Westwood, South Carolina, USA 12345</a></span>
+							<span class="spn hov"><i class="fas fa-phone"></i> &nbsp;<a href="tel:v">123-456-7890</a></span>
+							<span class="spn hov"><i class="far fa-envelope"></i> &nbsp; <a href="#">contact@company.com</a></span>
+							<span class="spn hov"><i class="far fa-envelope"></i> &nbsp; <a href="#">hello@company.com</a></span>
+							<!-- <div class="sm">
+								<a href="https://www.facebook.com/viatechmedia" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.instagram.com/viatechmedia" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/company/viatechmedia" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</div> -->
+							<div class="btnLeft">
+								<span><i class="fas fa-angle-double-left" id="btn2"></i></span>
+							</div>
+							<div class="btnSave">
+								<a href="#" target="_blank"><i class="fas fa-download"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../../packages/jquery-3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../../packages/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+		<script>
+			$( document ).ready(function() {
+				$('#btn1').click(function() {
+					$(this).closest('.flip-container').toggleClass('hover');
+					$(this).css('transform, rotateY(180deg)');
+				});
+				$('#btn2').click(function() {
+					$(this).closest('.flip-container').toggleClass('hover');
+					$(this).css('transform, rotateY(180deg)');
+				});
+			});
+		</script>
+	</body>
+</html>

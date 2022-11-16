@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+    /* border: 1px solid red; */
+	text-decoration: none!important;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.profile{
+    display: block;
+    position: relative;
+}
+.prof{
+    position: relative;
+    left: 50%;
+    top: 100px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 150px;
+    height: 150px;
+}
+.txt{
+    position: relative;
+    display: block;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    top: 130px;
+}
+.txt1{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    top: 130px;
+}
+.cont2{
+    top: 200px;
+    position: relative;
+    display: block;
+}
+.chat{
+    position: relative;
+    display: inline-block;
+    height: 600px;
+    background-color: #0ccead;
+}
+.get{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(124, 124, 124, 0.562);
+    margin-top: 100px;
+}
+.ready{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+.box{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: #1c1c1c;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.box a{
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 25px;
+}
+.box a:hover{
+    color: #0ccead;
+}
+
+
+@media (max-width: 1000px){
+    .txt{
+        font-size: 30px;
+    }
+    .lft{
+        padding: 30px 60px;
+    }
+    .rgt{
+        padding: 30px 60px;
+    }
+    .space{
+        text-align: center;
+    }
+    .pad{
+        padding: 0px 30px;
+    }  
+    .sm{
+        top: 80px;
+    }
+    .sm a{
+        width: 45px;
+        height: 45px;
+    }
+    .padd{
+        margin: 0px;
+    }
+    .box{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .details{
+        height: 500px;
+        float: none;
+    }
+}  
